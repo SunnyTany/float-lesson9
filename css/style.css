@@ -11,7 +11,7 @@
 section {
   border-radius: 5px;
   margin-bottom: 50px;
-  clear: both;
+  border: 2px solid #932516;
 }
 
 .block {
@@ -20,28 +20,17 @@ section {
   border-radius: 5px;
   display: inline-block;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   color: #ffffff;
   padding: 30px;
   margin: 30px;
 }
 
-.first__block1,
-.second__block1,
-.third__block1,
-.third__block2 {
-  float: left;
-}
-
 .first__block2,
-.second__block2,
-.second__block3,
-.second__block4,
-.third__block3,
-.third__block4,
+.second__wrap-blocks,
+.third__wrap-blocks,
 .fourth__wrap-blocks,
-.fifth__wrap-blocks,
-.fifth__wrap-blocks-main {
+.fifth__wrap-blocks {
   float: right;
 }
 
@@ -52,7 +41,7 @@ section {
 
 .fourth__wrap-blocks-main,
 .fifth__wrap-blocks-main {
-  width: 540px;
+  max-width: 540px;
   margin: 0 auto;
 }
 
@@ -61,6 +50,10 @@ section {
 .fifth__block2,
 .fifth__block3 {
   display: block;
+}
+
+.fifth__wrap-blocks-main {
+  margin-right: 0;
 }
 
 .first .block {
